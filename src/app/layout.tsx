@@ -1,11 +1,13 @@
 import type { Metadata } from 'next'
-import { Outfit } from 'next/font/google'
+import { Inter } from 'next/font/google'
 
 import '@/styles/globals.css'
 import { Header } from '@/components/header'
 import { ThemeProvider } from '@/components/theme-provider'
 
-const outfit = Outfit({ subsets: ['latin'] })
+const inter = Inter({
+  subsets: ['latin'],
+})
 
 export const metadata: Metadata = {
   title: 'Vinícios Barbosa - Desenvolvedor Front-end',
@@ -38,7 +40,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" suppressHydrationWarning>
-      <body className={outfit.className}>
+      <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light">
           <Header />
           {children}

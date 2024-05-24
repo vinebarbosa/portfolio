@@ -22,7 +22,7 @@ export const Hero = () => {
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
               Desenvolvedor Front-End
             </div>
-            <h1 className="h1 mb-4">Olá, sou o &nbsp; Vinícios Barbosa</h1>
+            <h1 className="h1 mb-4">Olá, eu sou o Vinícios Barbosa</h1>
             <p className="subtitle max-w-[490] mx-auto xl:mx-0">
               Desenvolvedor Front-End com mais de 3 anos de experiência. Eu
               ajudo empresas e startups a criar produtos digitais incríveis.

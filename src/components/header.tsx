@@ -16,7 +16,6 @@ export const Header = () => {
 
     window.addEventListener('scroll', scrollYPos)
 
-    // remove event
     return () => window.removeEventListener('scroll', scrollYPos)
   })
 

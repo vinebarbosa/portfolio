@@ -4,7 +4,7 @@ export const Logo = () => {
   return (
     <Link href="/">
       <div className="font-bold text-4xl text-gray-900 dark:text-white">
-        Vine.
+        Vine B.
       </div>
     </Link>
   )

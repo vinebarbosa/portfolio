@@ -6,7 +6,7 @@ export const DevImg = ({
 }: Record<'containerStyles' | 'imgSrc', string>) => {
   return (
     <div className={`${containerStyles}`}>
-      <Image src={imgSrc} fill priority alt="" />
+      <Image src={imgSrc} fill alt="" />
     </div>
   )
 }

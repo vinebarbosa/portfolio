@@ -28,17 +28,17 @@ export const Hero = () => {
               ajudo empresas e startups a criar produtos digitais incríveis.
             </p>
             <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
-              <Link href={'/contact'}>
+              <Link href="/contato">
                 <Button className="gap-x-2">
                   Conversar <Send size={18} />
                 </Button>
               </Link>
 
-              <a href="/cv.pdf" download="cv.pdf">
+              <Link href="/cv.pdf" download="cv.pdf">
                 <Button variant="secondary" className="gap-x-2">
                   Conferir currículo <FileText size={18} />
                 </Button>
-              </a>
+              </Link>
             </div>
 
             <Socials

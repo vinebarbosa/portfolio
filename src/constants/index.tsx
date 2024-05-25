@@ -177,3 +177,69 @@ export const qualificationData: QualificationData[] = [
     ],
   },
 ]
+
+export const projectData = [
+  {
+    image: '/work/3.png',
+    category: 'react js',
+    name: 'Clone da Amazon',
+    description:
+      'Clone da Amazon feito com react, tailwind, javascript e redux',
+    link: '/',
+    github: '/',
+  },
+  {
+    image: '/work/1.png',
+    category: 'react js',
+    name: 'Homeland',
+    description:
+      'Um site de aluguel de imóveis feito com react, tailwind e javascript.',
+    link: '/',
+    github: '/',
+  },
+  {
+    image: '/work/2.png',
+    category: 'Html CSS',
+    name: 'Website Lumina',
+    description:
+      'Lorem ipsum, dolor sit amet consectetur a necessitatibus eveniet est tenetur quisquam dolore',
+    link: '/',
+    github: '/',
+  },
+  {
+    image: '/work/2.png',
+    category: 'Html CSS',
+    name: 'Website Evolve',
+    description:
+      'Lorem ipsum, dolor sit amet consectetur a necessitatibus eveniet est tenetur quisquam dolore',
+    link: '/',
+    github: '/',
+  },
+  {
+    image: '/work/4.png',
+    category: 'react js',
+    name: 'Website Ignite',
+    description:
+      'Lorem ipsum, dolor sit amet consectetur a necessitatibus eveniet est tenetur quisquam dolore',
+    link: '/',
+    github: '/',
+  },
+  {
+    image: '/work/4.png',
+    category: 'next js',
+    name: 'Website Envision',
+    description:
+      'Lorem ipsum, dolor sit amet consectetur a necessitatibus eveniet est tenetur quisquam dolore',
+    link: '/',
+    github: '/',
+  },
+  {
+    image: '/work/4.png',
+    category: 'next js',
+    name: 'Website Envision',
+    description:
+      'Lorem ipsum, dolor sit amet consectetur a necessitatibus eveniet est tenetur quisquam dolore',
+    link: '/',
+    github: '/',
+  },
+]

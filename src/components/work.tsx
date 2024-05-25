@@ -5,77 +5,12 @@ import 'swiper/css/pagination'
 
 import Link from 'next/link'
 
+import { projectData } from '@/constants'
 import { Pagination } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
 
 import { ProjectCard } from './project-card'
 import { Button } from './ui/button'
-
-const projectData = [
-  {
-    image: '/work/1.png',
-    category: 'react js',
-    name: 'Homeland ',
-    description:
-      'Um site de aluguel de imóveis feito com react, tailwind e javascript.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/3.png',
-    category: 'react js',
-    name: 'Clone da Amazon',
-    description:
-      'Clone da Amazon feito com react, tailwind, javascript e redux',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/5.png',
-    category: 'NextJs',
-    name: 'Plataforma LMS',
-    description:
-      'Uma plataforma de venda de cursos e LMS construída com Nextjs, Tailwind CSS, TypeScript, Prisma e PostgreSQL.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/6.png',
-    category: 'NextJS',
-    name: 'Clone do Notion',
-    description:
-      'Clone do Notion desenvolvido com TypeScript, Tailwind CSS e Next.js no frontend.',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/4.png',
-    category: 'react js',
-    name: 'Website Ignite',
-    description:
-      'Lorem ipsum, dolor sit amet consectetur a necessitatibus eveniet est tenetur quisquam dolore',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/4.png',
-    category: 'react js',
-    name: 'Website Envision',
-    description:
-      'Lorem ipsum, dolor sit amet consectetur a necessitatibus eveniet est tenetur quisquam dolore',
-    link: '/',
-    github: '/',
-  },
-  {
-    image: '/work/4.png',
-    category: 'react js',
-    name: 'Website Envision',
-    description:
-      'Lorem ipsum, dolor sit amet consectetur a necessitatibus eveniet est tenetur quisquam dolore',
-    link: '/',
-    github: '/',
-  },
-]
 
 export const Work = () => {
   return (

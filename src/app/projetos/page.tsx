@@ -1,10 +1,24 @@
 'use client'
+import { Metadata } from 'next'
 import React, { useState } from 'react'
 
 import { projectData } from '@/constants'
 
 import { ProjectCard } from '@/components/project-card'
 import { Tabs, TabsList, TabsContent, TabsTrigger } from '@/components/ui/tabs'
+
+export const metadata: Metadata = {
+  title: 'Projetos',
+  description: 'Confira os projetos que desenvolvi e participei.',
+  keywords: [
+    'projetos',
+    'portfolio',
+    'portifólio',
+    'desenvolvimento',
+    'web',
+    'mobile',
+  ],
+}
 
 const categories = [
   'todos',

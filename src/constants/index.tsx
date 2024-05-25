@@ -243,3 +243,48 @@ export const projectData = [
     github: '/',
   },
 ]
+
+export const reviewsData = [
+  {
+    avatar: '/reviews/avatar-2.jpeg',
+    name: 'Felipe Caridade',
+    job: 'Desenvolvedor Python',
+    review:
+      'Ele elevou nosso projeto com um desenvolvimento React incrível. Sua atenção aos detalhes e compromisso com a qualidade o destacam.',
+  },
+  {
+    avatar: '/reviews/avatar-1.jpeg',
+    name: 'Lemuel Lemos',
+    job: 'Engenheiro de Dados',
+    review:
+      'Prem traz uma riqueza de conhecimento para os projetos. Sua versatilidade garante uma abordagem holística, seu design frontend é excepcional.',
+  },
+  {
+    avatar: '/reviews/avatar-2.jpeg',
+    name: 'Felipe Caridade',
+    job: 'Engenheiro Backend',
+    review:
+      'Suas habilidades de frontend são impressionantes! Seus conhecimentos em React brilham na criação de designs fluidos e responsivos, destacando-o no desenvolvimento web.',
+  },
+  {
+    avatar: '/reviews/avatar-1.jpeg',
+    name: 'Lemuel Lemos',
+    job: 'Engenheiro de Dados',
+    review:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, molestiae! Expedita, numquam quos!',
+  },
+  {
+    avatar: '/reviews/avatar-2.jpeg',
+    name: 'Felipe Caridade',
+    job: 'Desenvolvedor de Jogos',
+    review:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, molestiae! Expedita, numquam quos!',
+  },
+  {
+    avatar: '/reviews/avatar-1.jpeg',
+    name: 'Lemuel Lemos',
+    job: 'Engenheiro de Dados',
+    review:
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, molestiae! Expedita, numquam quos!',
+  },
+]

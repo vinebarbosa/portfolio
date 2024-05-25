@@ -21,7 +21,7 @@ export const Work = () => {
           <p className="subtitle mb-8">
             Entre no código que eu construí e dei vida.
           </p>
-          <Link href="/projects">
+          <Link href="/projetos">
             <Button>Todos os Projetos</Button>
           </Link>
         </div>

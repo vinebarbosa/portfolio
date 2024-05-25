@@ -10,7 +10,7 @@ export const Form = () => {
   return (
     <form
       className="flex flex-col gap-y-4"
-      action="https://formspree.io/f/moqgqqng"
+      action="https://formspree.io/f/xdoqvpad"
       method="POST"
     >
       <div className="relative flex items-center">

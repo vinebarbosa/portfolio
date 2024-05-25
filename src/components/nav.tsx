@@ -13,12 +13,15 @@ export const Nav = ({
   containerStyles,
   linkStyles,
   underlineStyles,
-  closeSheet = () => undefined,
-}: Record<'containerStyles' | 'linkStyles' | 'underlineStyles', string> & {
+  closeSheet,
+}: Partial<
+  Record<'containerStyles' | 'linkStyles' | 'underlineStyles', string>
+> & {
   closeSheet?: () => void
 }) => {
   const handleClick = () => {
-    closeSheet() // Close the sheet when a link is clicked
+    // @ts-expect-error - closeSheet is optional
+    closeSheet()
   }
 
   const path = usePathname()

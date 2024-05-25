@@ -15,7 +15,10 @@ export const MobileNav = () => {
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <AlignJustify className="cursor-pointer" />
+        <button className="h-full flex justify-center">
+          <span className="sr-only">Open Mobile Nav</span>
+          <AlignJustify className="cursor-pointer" />
+        </button>
       </SheetTrigger>
       <SheetContent>
         <div className="flex flex-col items-center justify-between h-full py-8">

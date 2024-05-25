@@ -8,24 +8,26 @@ import {
   RiYoutubeFill,
 } from 'react-icons/ri'
 
-// icons for the current user and the current user's profile
-
 const icons = [
   {
     path: 'https://www.instagram.com/vinnee.dev',
-    name: <RiInstagramFill />,
+    name: 'Instagram',
+    content: <RiInstagramFill />,
   },
   {
     path: 'https://github.com/vinebarbosa',
-    name: <RiGithubFill />,
+    name: 'Github',
+    content: <RiGithubFill />,
   },
   {
     path: 'https://www.youtube.com/channel/viniciosbarbosadev',
-    name: <RiYoutubeFill />,
+    name: 'Youtube',
+    content: <RiYoutubeFill />,
   },
   {
     path: 'https://www.linkedin.com/in/vinebarbosa/',
-    name: <RiLinkedinFill />,
+    name: 'Linkedin',
+    content: <RiLinkedinFill />,
   },
 ]
 
@@ -38,7 +40,8 @@ export const Socials = ({
       {icons.map((icon, index) => {
         return (
           <Link href={icon.path} key={index}>
-            <div className={`${iconsStyles}`}>{icon.name}</div>
+            <span className="sr-only">{icon.name}</span>
+            <div className={`${iconsStyles}`}>{icon.content}</div>
           </Link>
         )
       })}

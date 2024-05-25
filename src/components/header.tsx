@@ -6,6 +6,7 @@ import { useState, useEffect } from 'react'
 import { Logo } from './logo'
 import { MobileNav } from './mobile-nav'
 import { Nav } from './nav'
+import ThemeToggler from './theme-toggler'
 
 export const Header = () => {
   const [header, setHeader] = useState(false)
@@ -37,6 +38,8 @@ export const Header = () => {
               linkStyles="relative hover:text-primary transition-all"
               underlineStyles="absolute left-0 top-full h-[2px] bg-primary w-full"
             />
+
+            <ThemeToggler />
 
             <div className="xl:hidden">
               <MobileNav />

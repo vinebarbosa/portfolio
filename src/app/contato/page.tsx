@@ -1,4 +1,4 @@
-import { MailIcon, HomeIcon, PhoneCall } from 'lucide-react'
+import { MailIcon, PhoneCall } from 'lucide-react'
 
 import { Form } from '@/components/form'
 
@@ -25,17 +25,13 @@ const Contact = () => {
           <div className="flex flex-col gap-y-8 xl:gap-y-14 mb-12 xl:mb-24 text-base xl:text-lg">
             <div className="flex items-center gap-x-8">
               <MailIcon size={18} className="text-primary" />
-              <div>contato@viniciosbarbosa.com</div>
-            </div>
-            <div className="flex items-center gap-x-8">
-              <HomeIcon size={18} className="text-primary" />
-              <div>
-                Warur Road, Near Talathi office, Tehsil rajura, Dist chandrapur
-              </div>
+              <a href="mailto:contato@viniciosbarbosa.com">
+                contato@viniciosbarbosa.com
+              </a>
             </div>
             <div className="flex items-center gap-x-8">
               <PhoneCall size={18} className="text-primary" />
-              <div>+55 84 99185 1169</div>
+              <a href="tel:+55 84 99185 1169">+55 84 99185 1169</a>
             </div>
           </div>
           <Form />

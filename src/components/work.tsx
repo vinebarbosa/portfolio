@@ -5,7 +5,7 @@ import 'swiper/css/pagination'
 
 import Link from 'next/link'
 
-import { projectData } from '@/constants'
+import { projectData } from '@/templates'
 import { Pagination } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
 

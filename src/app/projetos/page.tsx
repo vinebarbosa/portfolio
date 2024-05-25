@@ -1,7 +1,7 @@
 'use client'
 import { useState } from 'react'
 
-import { projectData } from '@/constants'
+import { projectData } from '@/templates'
 
 import { ProjectCard } from '@/components/project-card'
 import { Tabs, TabsList, TabsContent, TabsTrigger } from '@/components/ui/tabs'

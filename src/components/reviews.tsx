@@ -5,7 +5,7 @@ import 'swiper/css/pagination'
 
 import Image from 'next/image'
 
-import { reviewsData } from '@/constants'
+import { reviewsData } from '@/templates'
 import { Pagination } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
 

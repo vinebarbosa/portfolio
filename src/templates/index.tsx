@@ -3,8 +3,11 @@ import {
   GraduationCap,
   HomeIcon,
   MailIcon,
+  PhoneCallIcon,
   User2,
 } from 'lucide-react'
+
+import { QualificationData } from '@/types/qualification'
 
 import {
   css,
@@ -70,13 +73,11 @@ export const skills = [
     name: 'GitHub',
     type: 'Version Control',
   },
-
   {
     imageUrl: motion,
     name: 'Motion',
     type: 'Animation',
   },
-
   {
     imageUrl: nodejs,
     name: 'Node.js',
@@ -110,35 +111,27 @@ export const infoData = [
     text: 'Vinícios Barbosa',
   },
   {
-    icon: <GraduationCap size={20} />,
-    text: 'Bach. em Ciência da Computação',
-  },
-  {
     icon: <Calendar size={20} />,
     text: '21 anos',
+  },
+
+  {
+    icon: <HomeIcon size={20} />,
+    text: 'Natal, RN, Brasil',
   },
   {
     icon: <MailIcon size={20} />,
     text: 'contato@viniciosbarbosa.com.br',
   },
   {
-    icon: <HomeIcon size={20} />,
-    text: 'Natal, RN, Brasil',
+    icon: <GraduationCap size={20} />,
+    text: 'Técnico em Informática',
+  },
+  {
+    icon: <PhoneCallIcon size={20} />,
+    text: '+55 84 99185 1169',
   },
 ]
-
-export type Qualification = {
-  university?: string
-  qualification?: string
-  years: string
-  company?: string
-  role?: string
-}
-
-export type QualificationData = {
-  title: string
-  data: Qualification[]
-}
 
 export const qualificationData: QualificationData[] = [
   {

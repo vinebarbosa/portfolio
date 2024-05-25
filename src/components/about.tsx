@@ -1,16 +1,13 @@
 import { Button, Tooltip } from '@nextui-org/react'
 import Image from 'next/image'
 
-import {
-  QualificationData,
-  infoData,
-  qualificationData,
-  skills,
-} from '@/constants'
+import { infoData, qualificationData, skills } from '@/templates'
 import { GraduationCap, Briefcase } from 'lucide-react'
 
 import { DevImg } from './dev-img'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs'
+
+import { QualificationData } from '@/types/qualification'
 
 export const About = () => {
   const getData = (arr: QualificationData[], title: string) => {
